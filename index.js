@@ -95,7 +95,7 @@ function createRock(x) {
          */
          if ( top >= 380 ) {
              rock.remove()
-             
+
          } else {
             /**
              * But if the rock *has* reached the bottom of the GAME,
@@ -137,7 +137,7 @@ function endGame() {
     document.querySelectorAll('.rock').forEach((e){
         e.remove()
     })
-    
+
 
     alert('YOU LOSE!')
 }
