@@ -95,7 +95,6 @@ function createRock(x) {
          */
          if ( top >= 380 ) {
              rock.remove()
-
          } else {
             /**
              * But if the rock *has* reached the bottom of the GAME,
@@ -129,7 +128,6 @@ function createRock(x) {
  */
 function endGame() {
 
-    debugger
     clearInterval(gameInterval)
 
     window.removeEventListener('keydown',moveDodger)
