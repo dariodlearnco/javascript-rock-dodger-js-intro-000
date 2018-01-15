@@ -134,7 +134,7 @@ function endGame() {
 
     window.removeEventListener('keydown',moveDodger)
 
-    document.querySelectorAll('.rock').forEach((e){
+    document.querySelectorAll('.rock').forEach(function (e){
         e.remove()
     })
 
