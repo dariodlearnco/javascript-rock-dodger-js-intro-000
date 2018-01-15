@@ -76,7 +76,7 @@ function createRock(x) {
    * This function moves the rock. (2 pixels at a time
    * seems like a good pace.)
    */
-  window.requestAnimationFrame(moveRock)
+  moveRock()
 
   function moveRock() {
     // implement me!
@@ -134,7 +134,7 @@ function endGame() {
 
     window.removeEventListener('keydown',moveDodger)
 
-    document.querySelectorAll('.rock').forEach(function (e){
+    document.querySelectorAll('.rock').forEach(function (e) {
         e.remove()
     })
 
